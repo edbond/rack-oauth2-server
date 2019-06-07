@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rack", "~>1.1"
   spec.add_dependency "mongo", "~>1"
   spec.add_dependency "bson_ext"
-  spec.add_dependency "sinatra", "~>1.1"
+  spec.add_dependency "sinatra", ">=1.1", "<3.0"
 end
